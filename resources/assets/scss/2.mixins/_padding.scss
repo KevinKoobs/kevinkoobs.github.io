@@ -1,0 +1,13 @@
+@mixin padding($amount) {
+	padding: $amount + rem;
+}
+
+@mixin padding-vertical($amount) {
+	padding-top: $amount + rem;
+	padding-bottom: $amount + rem;
+}
+
+@mixin padding-horizontal($amount) {
+	padding-left: $amount + rem;
+	padding-right: $amount + rem;
+}

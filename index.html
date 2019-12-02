@@ -1,0 +1,66 @@
+<head>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	      rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+	<script src="https://unpkg.com/vue"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Karla:400,700|Rubik:700&display=swap" rel="stylesheet">
+
+	<link href="css/style.min.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+</head>
+
+<body class="bg--primary">
+
+	<div class="card">
+		<div class="homepage trim">
+			<div class="grid-row">
+				<img src="resources/images/boodschappen.png">
+				<h2 class="homepage__link" for="boodschappenlijst">boodschappenlijst</h2>
+			</div>
+			<div class="grid-row">
+				<img src="resources/images/recepten.png">
+				<h2 class="homepage__link" for="recepten">recepten</h2>
+			</div>
+		</div>
+		<div class="is-hidden" data-link="boodschappenlijst" id="vueApp">
+		</div>
+	</div>
+	<div class="footer">
+		<div class="footer footer__button">
+			<span class="material-icons footer__button-icon">close</span>
+		</div>
+	</div>
+</body>
+
+<!--<div class="test">-->
+<!--	<h2 class="title" for="boodschappen">boodschappen</h2>-->
+<!--	<h2 class="title" for="recepten">recepten</h2>-->
+<!--</div>-->
+<!--<div class="bottom"></div>-->
+
+<!--<div class="load-content is-hidden" id="boodschappen" v-cloak>-->
+<!--	<h1>{{ test }}</h1>-->
+<!--	<div class="form">-->
+<!--		<input type="text" name="search" placeholder="Zoeken" v-model="search">-->
+<!--	</div>-->
+<!--	<div class="form">-->
+<!--		<input type="text" name="add" placeholder="Toevoegen" v-model="add">-->
+<!--		<button v-on:click="addItemToList()">Voeg toe!</button>-->
+<!--	</div>-->
+
+<!--	<div class="items">-->
+<!--		<div v-for="group in groups">-->
+<!--			<p class="item__header" :id="group.letter">-->
+<!--				{{group.letter}}-->
+<!--			</p>-->
+<!--			<ul>-->
+<!--				<li v-for="item in group.values">{{ item }} <span v-on:click="">+</span> | <span v-on:click="">-</span></li>-->
+<!--			</ul>-->
+<!--		</div>-->
+<!--	</div>-->
+<!--</div>-->
+
+<script src="dist/app.js"></script>

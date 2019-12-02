@@ -1,0 +1,16 @@
+.card {
+	@include padding(1);
+
+	background: $color-bg-white;
+	border-radius: 20px;
+	position: absolute;
+	bottom: 3.25rem;
+	width: 100%;
+	z-index: 10;
+
+	&--is-active {
+		height: 85%;
+		padding-bottom: 3rem;
+	}
+
+}

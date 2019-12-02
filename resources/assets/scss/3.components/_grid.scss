@@ -1,0 +1,9 @@
+.grid {
+
+	&-row {
+		display: flex;
+		align-items: center;
+
+		@include margin-vertical(1);
+	}
+}

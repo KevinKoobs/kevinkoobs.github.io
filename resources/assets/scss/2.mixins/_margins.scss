@@ -1,0 +1,13 @@
+@mixin margin($amount) {
+	margin: $amount + rem;
+}
+
+@mixin margin-vertical($amount) {
+	margin-top: $amount + rem;
+	margin-bottom: $amount + rem;
+}
+
+@mixin margin-horizontal($amount) {
+	margin-left: $amount + rem;
+	margin-right: $amount + rem;
+}
