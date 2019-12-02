@@ -1,4 +1,5 @@
 $('.homepage__link').on('click', function() {
+	console.log('hi');
 });
 
 
