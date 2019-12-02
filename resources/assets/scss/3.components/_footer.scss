@@ -1,0 +1,29 @@
+.footer {
+	position: absolute;
+	bottom: 0;
+	background: $color-bg-black;
+	height: 5rem;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+	&__button {
+		display: none;
+
+		width: 5.75rem;
+		height: 5.75rem;
+		background: $color-blue;
+		border: 12px solid $color-black;
+		border-radius: 50%;
+		z-index: 11;
+		//display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__button-icon {
+		color: $color-white;
+		font-size: 4rem;
+		transform: rotate(45deg);
+	}
+}
