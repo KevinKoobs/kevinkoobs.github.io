@@ -12,8 +12,8 @@ module.exports = {
 	// Path and filename of your result bundle.
 	// Webpack will bundle all JavaScript into this file
 	output: {
-		path: path.resolve(__dirname, 'dist'),
-		filename: 'app.js'
+		path: path.resolve(__dirname),
+		filename: 'scripts.js'
 	},
 
 	// Default mode for Webpack is production.
