@@ -1,0 +1,42 @@
+{
+  "name": "testproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "watch": "npm run build -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinKoobs/groceries.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinKoobs/groceries/issues"
+  },
+  "homepage": "https://github.com/KevinKoobs/groceries#readme",
+  "dependencies": {
+    "grunt-postcss": "^0.9.0",
+    "sass": "^1.23.7",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "foundation-sites": "^6.5.3",
+    "grunt-contrib": "^0.11.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-sass": "^3.1.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "time-grunt": "^2.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
